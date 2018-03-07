@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*** header ***/
+
+/*** about us section ***/
+.text-about-us {
+    font-family: Raleway - Extra Light;
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+}
+
+.green-line {
+    width: 30px;
+    height: 1px;
+    background-color: #17daa3;
+}
+
+.text-about-us-2 {
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+}
+
+/*** 4cirlce section ***/
+.grey-circle {
+    width: 182px;
+    height: 182px;
+    background-color: #87949e;
+    border-radius: 50%;
+    filter:opacity(15%);
+}
+
+.grey-circle:hover {
+    background-color: #17daa3;
+    filter:opacity(100%);
+}
+.lo-ip-cirle {
+    font-size: 30px;
+}
+.text-circle {
+    font-size: 18px;
+}
+
+.button-learn-more {
+    width: 183px;
+    height: 47px;
+    background-color: #17daa3;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 24px;
+    text-align: center;
+}
+
+/*** left-photo section ***/
+
+/*** right-photo section ***/
+
+/*** testimonials section ***/
+
+/*** our section ***/
+
+
