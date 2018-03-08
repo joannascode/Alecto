@@ -12,8 +12,68 @@
 </head>
 <body>
 <header>
+<nav class="nav navbar-fixed-top">
+    <div class="container-fluid">
+    <a href="#" class="logo-img">
+        <img src="img/alecto-.png">
+    </a>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>work</li>
+        <li>services</li>
+        <li>blog</li>
+        <li><img src="img/searchj.png" class="search-icon"></li>
+    </ul>
+    </div>
+</nav>
+    <section>
+        <div class="container-fluid">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="https://images.unsplash.com/photo-1487581424120-18f3611a63e6?dpr=0.8333333730697632&auto=format&fit=crop&w=2000&h=900&q=80&cs=tinysrgb&crop=&bg="
+                             alt="map" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="https://images.unsplash.com/photo-1473625247510-8ceb1760943f?dpr=0.8333333730697632&auto=format&fit=crop&w=2000&h=900&q=80&cs=tinysrgb&crop=&bg="
+                             alt="man" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="https://images.unsplash.com/photo-1460134846237-51c777df6111?dpr=0.8333333730697632&auto=format&fit=crop&w=2000&h=900&q=80&cs=tinysrgb&crop=&bg="
+                             alt="camera" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="https://images.unsplash.com/photo-1466838931486-92f3b5ff31a6?dpr=0.8333333730697632&auto=format&fit=crop&w=2000&h=900&q=80&cs=tinysrgb&crop=&bg="
+                             alt="bike" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="https://images.unsplash.com/photo-1466903001289-713a94ef08df?dpr=0.8333333730697632&auto=format&fit=crop&w=2000&h=900&q=80&cs=tinysrgb&crop=&bg="
+                             alt="city" class="img-responsive">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            </div>
+        </div>
 
+    </section>
 </header>
+
 <div class="container">
 <div class="row">
     <div class="col-sm">
@@ -25,22 +85,22 @@
     <div class="row">
         <div class="col circle-rocket">
         <div class="grey-circle"><img src="img/rocket.png"></div>
-            <span class="lo-ip-cirle">Lorem ipsum</span>
+            <span class="lo-ip-cirle">Lorem ipsum</span><br/>
             <span class="text-circle">Nam varius accumsan elementum. Aliquam fermentum eros in suscipit scelerisque.</span>
         </div>
         <div class="col circle-atom">
             <div class="grey-circle"><img src="img/atom.png"></div>
-            <span class="lo-ip-cirle">Lorem ipsum</span>
+            <span class="lo-ip-cirle">Lorem ipsum</span><br/>
             <span class="text-circle">Nam varius accumsan elementum. Aliquam fermentum eros in suscipit scelerisque.</span>
         </div>
         <div class="col circle-acitivity">
             <div class="grey-circle"><img src="img/activity.png"></div>
-            <span class="lo-ip-cirle">Lorem ipsum</span>
+            <span class="lo-ip-cirle">Lorem ipsum</span><br/>
             <span class="text-circle">Nam varius accumsan elementum. Aliquam fermentum eros in suscipit scelerisque.</span>
         </div>
         <div class="col circle-cup">
             <div class="grey-circle"><img src="img/graduation-cap.png"></div>
-            <span class="lo-ip-cirle">Lorem ipsum</span>
+            <span class="lo-ip-cirle">Lorem ipsum</span><br/>
             <span class="text-circle">Nam varius accumsan elementum. Aliquam fermentum eros in suscipit scelerisque.</span>
         </div>
     </div>
@@ -92,18 +152,18 @@
         </div>
     </div>
     <div class="row">
-        <div class="col">1</div>
-        <div class="col">2</div>
-        <div class="col">3</div>
-        <div class="col">4</div>
-        <div class="col">5</div>
+        <div class="col-sm squre">1</div>
+        <div class="col-sm squre">2</div>
+        <div class="col-sm squre">3</div>
+        <div class="col-sm squre">4</div>
+        <div class="col-sm squre">5</div>
     </div>
     <div class="row">
-        <div class="col">1</div>
-        <div class="col">2</div>
-        <div class="col">3</div>
-        <div class="col">4</div>
-        <div class="col">5</div>
+        <div class="col-sm">1</div>
+        <div class="col-sm">2</div>
+        <div class="col-sm">3</div>
+        <div class="col-sm">4</div>
+        <div class="col-sm">5</div>
     </div>
     <div class="row">
         <div class="col-sm">
@@ -134,8 +194,10 @@
 </div>
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
 </body>
 </html>
 

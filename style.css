@@ -1,9 +1,32 @@
 *{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 /*** header ***/
+header {
+    background-color: red;
+}
+
+.nav {
+    padding-top: 57px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+
+.logo-img {
+    width: 108px;
+    height: 27px;
+}
+
+.search-icon {
+    width: 23px;
+    height: 23px;
+}
 
 /*** about us section ***/
 .text-about-us {
@@ -11,12 +34,18 @@
     font-size: 60px;
     font-weight: 200;
     letter-spacing: 1.5px;
+    padding-top: 110px;
+    text-align: center;
 }
 
 .green-line {
     width: 30px;
     height: 1px;
     background-color: #17daa3;
+    margin-top: 87px;
+    margin-bottom: 56px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .text-about-us-2 {
@@ -24,6 +53,8 @@
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.45px;
+    text-align: center;
+    margin-bottom: 156px;
 }
 
 /*** 4cirlce section ***/
@@ -40,10 +71,23 @@
     filter:opacity(100%);
 }
 .lo-ip-cirle {
+    color: #000;
     font-size: 30px;
+    font-weight: 400;
+    line-height: 96px;
+    font-family: Raleway;
+    text-align: center;
 }
 .text-circle {
+    color: #87949e;
     font-size: 18px;
+    font-family: Proxima Nova;
+    width: 292px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.45px;
+    text-align: center;
+
 }
 
 .button-learn-more {
@@ -54,7 +98,10 @@
     cursor: pointer;
     border: 2px solid white;
     border-radius: 24px;
-    text-align: center;
+    margin-bottom: 108px;
+    margin-top: 106px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*** left-photo section ***/
@@ -64,5 +111,11 @@
 /*** testimonials section ***/
 
 /*** our section ***/
+
+/*** team section ***/
+.squre {
+    width: 20%;
+    height: 400px;
+}
 
 
