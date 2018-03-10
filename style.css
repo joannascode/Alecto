@@ -1,9 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
+body {
+    height: 100vh;
+}
 /*** header ***/
 header {
     background-color: red;
@@ -18,9 +20,11 @@ nav ul {
 }
 
 
-.logo-img {
+.logo-img img{
     width: 108px;
     height: 27px;
+    padding-top: 57px;
+    padding-left: 265px;
 }
 
 .search-icon {
@@ -61,15 +65,27 @@ nav ul {
 .grey-circle {
     width: 182px;
     height: 182px;
-    background-color: #87949e;
+    background-color: #EDEFF0;
     border-radius: 50%;
-    filter:opacity(15%);
+    z-index: -2;
+    cursor: pointer;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .grey-circle:hover {
     background-color: #17daa3;
-    filter:opacity(100%);
 }
+
+.grey-circle img {
+    width: 53px;
+    height: 53px;
+    z-index: 100;
+    display: block;
+    margin: 0 auto;
+}
+
 .lo-ip-cirle {
     color: #000;
     font-size: 30px;
@@ -77,6 +93,7 @@ nav ul {
     line-height: 96px;
     font-family: Raleway;
     text-align: center;
+    display: block;
 }
 .text-circle {
     color: #87949e;
@@ -87,6 +104,7 @@ nav ul {
     line-height: 30px;
     letter-spacing: 0.45px;
     text-align: center;
+    display: block;
 
 }
 
@@ -100,14 +118,19 @@ nav ul {
     border-radius: 24px;
     margin-bottom: 108px;
     margin-top: 106px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 /*** left-photo section ***/
-
+.left-photo {
+    height: 703px;
+}
 /*** right-photo section ***/
-
+.right-photo {
+    height: 703px;
+}
 /*** testimonials section ***/
 
 /*** our section ***/
@@ -118,4 +141,55 @@ nav ul {
     height: 400px;
 }
 
+/*** pricing section ***/
+.green-box-shop {
+    width: 345px;
+    height: 73px;
+    background-color: #17daa3;
+    cursor: pointer;
+}
 
+/*** footer ***/
+.try-psd {
+    background-image: url("img/try-our-template.png");
+    height:757px;
+    width: 2000px;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.button-footer {
+    width: 183px;
+    height: 47px;
+    background-color: #17daa3;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #17daa3;
+    border-radius: 24px;
+    margin-bottom: 108px;
+    margin-top: 106px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.li-footer li {
+    list-style-type: none;
+}
+
+.li-footer li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #87949e;
+    text-transform: capitalize;
+    letter-spacing: 0.45px;
+    line-height: 96px;
+}
+
+.footer-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #87949e;
+    letter-spacing: 0.45px;
+}
